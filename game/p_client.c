@@ -178,7 +178,7 @@ void SP_info_player_intermission(void)
 
 void player_pain (edict_t *self, edict_t *other, float kick, int damage)
 {
-	// player pain is handled at the end of the frame in P_DamageFeedback
+	// player pain is handled at the end of the frame in P_DamageFeedback -- this is in p_view.c KRG
 }
 
 
@@ -1639,7 +1639,7 @@ void ClientThink (edict_t *ent, usercmd_t *ucmd)
 		for (i=0 ; i<3 ; i++)
 		{
 			ent->s.origin[i] = pm.s.origin[i]*0.125;
-			ent->velocity[i] = pm.s.velocity[i]*0.125;
+			ent->velocity[i] = pm.s.velocity[i]*0.125; //krg25 additive speed
 		}
 
 		VectorCopy (pm.mins, ent->mins);

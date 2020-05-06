@@ -386,6 +386,8 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 	if (!targ->takedamage)
 		return;
 
+
+
 	// friendly fire avoidance
 	// if enabled you can't hurt teammates (but you can hurt yourself)
 	// knockback still occurs
@@ -482,6 +484,13 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 	// team damage avoidance
 	if (!(dflags & DAMAGE_NO_PROTECTION) && CheckTeamDamage (targ, attacker))
 		return;
+
+	//KRG25, if the attacker is the target, do no damage. this is a quick and easy rocket jump
+	if (targ == attacker){
+		psave = 0;
+		asave = 0;
+		take = 0;
+	}
 
 // do the damage
 	if (take)

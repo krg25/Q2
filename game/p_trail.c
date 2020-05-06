@@ -131,8 +131,9 @@ edict_t *PlayerTrail_PickNext (edict_t *self)
 
 	for (marker = trail_head, n = TRAIL_LENGTH; n; n--)
 	{
-		if(trail[marker]->timestamp <= self->monsterinfo.trail_time)
-			marker = NEXT(marker);
+		if (trail[marker]->timestamp <= self->monsterinfo.trail_time)
+			printf("error");//idGameLocal::InitFromSaveGame: number of areas in map differs from save game.marker = NEXT(marker);
+			
 		else
 			break;
 	}
