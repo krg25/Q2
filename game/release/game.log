@@ -1,19 +1,112 @@
-﻿Build started 5/7/2020 2:12:54 AM.
+﻿Build started 5/7/2020 2:34:14 AM.
      1>Project "C:\Users\PC\test\q2\game\game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\release\\" /Fd".\release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt g_weapon.c
-         g_weapon.c
-     1>g_weapon.c(363): warning C4100: 'mod' : unreferenced formal parameter
-     1>g_weapon.c(363): warning C4100: 'vspread' : unreferenced formal parameter
-     1>g_weapon.c(363): warning C4100: 'hspread' : unreferenced formal parameter
-     1>g_weapon.c(363): warning C4100: 'kick' : unreferenced formal parameter
-     1>g_weapon.c(385): warning C4100: 'mod' : unreferenced formal parameter
-     1>g_weapon.c(385): warning C4100: 'count' : unreferenced formal parameter
-     1>g_weapon.c(385): warning C4100: 'vspread' : unreferenced formal parameter
-     1>g_weapon.c(385): warning C4100: 'hspread' : unreferenced formal parameter
-     1>g_weapon.c(385): warning C4100: 'kick' : unreferenced formal parameter
-     1>g_weapon.c(557): warning C4100: 'plane' : unreferenced formal parameter
-     1>g_weapon.c(859): warning C4127: conditional expression is constant
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\release\\" /Fd".\release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt m_actor.c m_boss32.c m_brain.c m_chick.c m_flipper.c m_gladiator.c m_gunner.c m_hover.c m_infantry.c m_medic.c m_parasite.c m_soldier.c m_tank.c
+         m_actor.c
+     1>m_actor.c(230): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_actor.c(230): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_actor.c(339): warning C4100: 'point' : unreferenced formal parameter
+     1>m_actor.c(339): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_actor.c(339): warning C4100: 'inflictor' : unreferenced formal parameter
+     1>m_actor.c(401): warning C4100: 'activator' : unreferenced formal parameter
+     1>m_actor.c(401): warning C4100: 'other' : unreferenced formal parameter
+     1>m_actor.c(496): warning C4100: 'surf' : unreferenced formal parameter
+     1>m_actor.c(496): warning C4100: 'plane' : unreferenced formal parameter
+         m_boss32.c
+     1>m_boss32.c(555): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_boss32.c(555): warning C4100: 'other' : unreferenced formal parameter
+     1>m_boss32.c(601): warning C4100: 'other' : unreferenced formal parameter
+     1>m_boss32.c(673): warning C4100: 'point' : unreferenced formal parameter
+     1>m_boss32.c(673): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_boss32.c(673): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_brain.c
+     1>m_brain.c(48): warning C4100: 'other' : unreferenced formal parameter
+     1>m_brain.c(542): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_brain.c(542): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_brain.c(542): warning C4100: 'other' : unreferenced formal parameter
+     1>m_brain.c(586): warning C4100: 'point' : unreferenced formal parameter
+     1>m_brain.c(586): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_brain.c(586): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_chick.c
+     1>m_chick.c(266): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_chick.c(266): warning C4100: 'other' : unreferenced formal parameter
+     1>m_chick.c(353): warning C4100: 'point' : unreferenced formal parameter
+     1>m_chick.c(353): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_chick.c(353): warning C4100: 'inflictor' : unreferenced formal parameter
+     1>m_chick.c(430): warning C4100: 'eta' : unreferenced formal parameter
+     1>m_chick.c(619): warning C4100: 'other' : unreferenced formal parameter
+         m_flipper.c
+     1>m_flipper.c(223): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_flipper.c(223): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_flipper.c(223): warning C4100: 'other' : unreferenced formal parameter
+     1>m_flipper.c(327): warning C4100: 'other' : unreferenced formal parameter
+     1>m_flipper.c(332): warning C4100: 'point' : unreferenced formal parameter
+     1>m_flipper.c(332): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_flipper.c(332): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_gladiator.c
+     1>m_gladiator.c(49): warning C4100: 'other' : unreferenced formal parameter
+     1>m_gladiator.c(240): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_gladiator.c(240): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_gladiator.c(240): warning C4100: 'other' : unreferenced formal parameter
+     1>m_gladiator.c(308): warning C4100: 'point' : unreferenced formal parameter
+     1>m_gladiator.c(308): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_gladiator.c(308): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_gunner.c
+     1>m_gunner.c(46): warning C4100: 'other' : unreferenced formal parameter
+     1>m_gunner.c(283): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_gunner.c(283): warning C4100: 'other' : unreferenced formal parameter
+     1>m_gunner.c(335): warning C4100: 'point' : unreferenced formal parameter
+     1>m_gunner.c(335): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_gunner.c(335): warning C4100: 'inflictor' : unreferenced formal parameter
+     1>m_gunner.c(409): warning C4100: 'eta' : unreferenced formal parameter
+         m_hover.c
+     1>m_hover.c(43): warning C4100: 'other' : unreferenced formal parameter
+     1>m_hover.c(487): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_hover.c(487): warning C4100: 'other' : unreferenced formal parameter
+     1>m_hover.c(541): warning C4100: 'point' : unreferenced formal parameter
+     1>m_hover.c(541): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_hover.c(541): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_infantry.c
+     1>m_infantry.c(215): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_infantry.c(215): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_infantry.c(215): warning C4100: 'other' : unreferenced formal parameter
+     1>m_infantry.c(299): warning C4100: 'other' : unreferenced formal parameter
+     1>m_infantry.c(386): warning C4100: 'point' : unreferenced formal parameter
+     1>m_infantry.c(386): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_infantry.c(386): warning C4100: 'inflictor' : unreferenced formal parameter
+     1>m_infantry.c(466): warning C4100: 'eta' : unreferenced formal parameter
+         m_medic.c
+     1>m_medic.c(116): warning C4100: 'other' : unreferenced formal parameter
+     1>m_medic.c(317): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_medic.c(317): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_medic.c(317): warning C4100: 'other' : unreferenced formal parameter
+     1>m_medic.c(413): warning C4100: 'point' : unreferenced formal parameter
+     1>m_medic.c(413): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_medic.c(413): warning C4100: 'inflictor' : unreferenced formal parameter
+     1>m_medic.c(494): warning C4100: 'eta' : unreferenced formal parameter
+         m_parasite.c
+     1>m_parasite.c(65): warning C4100: 'other' : unreferenced formal parameter
+     1>m_parasite.c(275): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_parasite.c(275): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_parasite.c(275): warning C4100: 'other' : unreferenced formal parameter
+     1>m_parasite.c(471): warning C4100: 'point' : unreferenced formal parameter
+     1>m_parasite.c(471): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_parasite.c(471): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_soldier.c
+     1>m_soldier.c(409): warning C4100: 'damage' : unreferenced formal parameter
+     1>m_soldier.c(409): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_soldier.c(409): warning C4100: 'other' : unreferenced formal parameter
+     1>m_soldier.c(792): warning C4100: 'other' : unreferenced formal parameter
+     1>m_soldier.c(1144): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_soldier.c(1144): warning C4100: 'inflictor' : unreferenced formal parameter
+         m_tank.c
+     1>m_tank.c(49): warning C4100: 'other' : unreferenced formal parameter
+     1>m_tank.c(288): warning C4100: 'kick' : unreferenced formal parameter
+     1>m_tank.c(288): warning C4100: 'other' : unreferenced formal parameter
+     1>m_tank.c(753): warning C4100: 'point' : unreferenced formal parameter
+     1>m_tank.c(753): warning C4100: 'attacker' : unreferenced formal parameter
+     1>m_tank.c(753): warning C4100: 'inflictor' : unreferenced formal parameter
+         Generating Code...
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\PC\test\q2\game\.\..\release\game.dll) does not match the Linker's OutputFile property value (C:\Users\PC\test\q2\release\gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
@@ -71,4 +164,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
+Time Elapsed 00:00:02.78

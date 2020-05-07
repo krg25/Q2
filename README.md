@@ -26,7 +26,7 @@ Specific Deliverables
 
 ✔ More Explosions
 
-❗ More gibs
+✔ More gibs
 
 ❗ Upgrades by player kills
 

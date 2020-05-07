@@ -341,12 +341,12 @@ void actor_die (edict_t *self, edict_t *inflictor, edict_t *attacker, int damage
 	int		n;
 
 // check for gib
-	if (self->health <= -80)
+	if (self->health <= -20)
 	{
 //		gi.sound (self, CHAN_VOICE, actor.sound_gib, 1, ATTN_NORM, 0);
-		for (n= 0; n < 2; n++)
-			ThrowGib (self, "models/objects/gibs/bone/tris.md2", damage, GIB_ORGANIC);
 		for (n= 0; n < 4; n++)
+			ThrowGib (self, "models/objects/gibs/bone/tris.md2", damage, GIB_ORGANIC);
+		for (n= 0; n < 8; n++)
 			ThrowGib (self, "models/objects/gibs/sm_meat/tris.md2", damage, GIB_ORGANIC);
 		ThrowHead (self, "models/objects/gibs/head2/tris.md2", damage, GIB_ORGANIC);
 		self->deadflag = DEAD_DEAD;
