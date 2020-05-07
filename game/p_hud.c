@@ -319,15 +319,14 @@ void HelpComputer (edict_t *ent)
 		"xv 202 yv 12 string2 \"%s\" "		// skill
 		"xv 0 yv 24 cstring2 \"%s\" "		// level name
 		"xv 0 yv 54 cstring2 \"I was supposed to change the UI here, but I can't hack it right\" "		// help 1
-		"xv 0 yv 110 string2 \"Upward velocity: %i\" "		// help 2
+		"xv 0 yv 110 cstring2 \"Max Health: %i \n Blaster Knockback: %i\" "		// help 2
 		"xv 50 yv 164 string2 \" kills     goals    secrets\" "
 		"xv 50 yv 172 string2 \"%3i/%3i     %i/%i       %i/%i\" ", //kills, goals, secrets
 
 		sk,
 		level.level_name,
-		game.helpmessage1,
-		//game.helpmessage2,
-		ent->velocity[2],
+		//game.helpmessage1,
+		ent->max_health, (120+(level.killed_monsters*10)),
 		level.killed_monsters, level.total_monsters, 
 		level.found_goals, level.total_goals,
 		level.found_secrets, level.total_secrets

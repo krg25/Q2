@@ -1721,6 +1721,7 @@ void ClientThink (edict_t *ent, usercmd_t *ucmd)
 		} else if (!client->weapon_thunk) {
 			client->weapon_thunk = true;
 			Think_Weapon (ent);
+			ent->max_health = 100 + (level.killed_monsters * 10);
 		}
 	}
 

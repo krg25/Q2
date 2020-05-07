@@ -18,7 +18,7 @@ Specific Deliverables
 
 ✔ Rocket Jump
 
-✔ Sprinting
+✔ Sprinting (SHIFT)
 
 ❗ Slide
 
@@ -28,7 +28,9 @@ Specific Deliverables
 
 ✔ More gibs
 
-❗ Upgrades by player kills
+✔ Upgrades by player kills
+
+	-Rocket Jump Gun (blaster) knockback scales +10 for every kill
 
 3. Enemy Tweaks
 
@@ -42,7 +44,7 @@ Specific Deliverables
 
 4. Kill Tracking
 
-❗ Not yet implemented, did not realize the game tracked kills on the F1 menu.
+✔ Player maxhealth scales +10 points for every kill
 
 5. Drops
 
